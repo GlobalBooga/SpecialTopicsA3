@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.otuvr.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\alex_\\Documents\\school stuff\\University\\Year 3\\ARVR\\OTUVR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "OTUVR [Testing]"
+        }
+      }
+    }
+  ]
+}
