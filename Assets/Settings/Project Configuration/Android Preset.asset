@@ -25,8 +25,8 @@ MonoBehaviour:
     probeSamplingDebugTexture: {fileID: 0}
     probeVolumeBlendStatesCS: {fileID: 0}
   m_RendererFeatures:
-  - {fileID: 9110758545514170208}
-  m_RendererFeatureMap: 6007ba53a0ea6f7e
+  - {fileID: 4256203029005698905}
+  m_RendererFeatureMap: 5987d3c31a12113b
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   postProcessData: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
---- !u!114 &9110758545514170208
+--- !u!114 &4256203029005698905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,14 +61,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: FullScreenPassRendererFeature
+  m_Script: {fileID: 11500000, guid: 29943e4ac2629d64692c8ae102d3fa9f, type: 3}
+  m_Name: ColorBlitRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  injectionPoint: 600
-  fetchColorBuffer: 1
-  requirements: 0
-  passMaterial: {fileID: 2100000, guid: adaf5c7edcf3379409aaf4af7cb80aea, type: 2}
-  passIndex: 0
-  bindDepthStencilAttachment: 0
-  m_Version: 1
+  m_Shader: {fileID: 4800000, guid: ba5f7aa011b130d45a7c16c22e1e293d, type: 3}
+  m_Intensity: 0.5
