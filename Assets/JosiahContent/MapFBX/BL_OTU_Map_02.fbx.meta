@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: M_2045Outlines_Material_01
+    second: {fileID: 2100000, guid: 0a425bfcb5e611c40bd93c525e5fbbf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black_Material_01
+    second: {fileID: 2100000, guid: 0693cb74bc22c0f47b0e3d73b707de95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: M_Buidlings2045_Material_01
     second: {fileID: 2100000, guid: 65d48e2a9cfe91c4f82b7956ca4e4e05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BuildingOutlines_Material_01
+    second: {fileID: 2100000, guid: 759a8447ba972bd42b2b0bcc911dfac0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -18,12 +33,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_DarkGrey_Material
-    second: {fileID: 2100000, guid: 0d61ac7dd36d6984b826a5072017c8af, type: 2}
+    second: {fileID: 2100000, guid: c8102c2e8a630644bb2abec1264d9437, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Field_Material
     second: {fileID: 2100000, guid: ae3fc0c7df76b9a4f9d286ebc131b98b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_GrassOutlines_Material
+    second: {fileID: 2100000, guid: 57d782f27492ee34dae7a3ccd53403fe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -42,6 +62,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: M_RoadLines_Material
+    second: {fileID: 2100000, guid: 1080c71a42586914f8409d5ad94c01bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: M_SideWalks_Material_01
     second: {fileID: 2100000, guid: 458632e1b1bc93a46b168c70cb7a9f8e, type: 2}
   - first:
@@ -53,7 +78,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Trees_Material
-    second: {fileID: 2100000, guid: 50bc9f29124a77c409887b5eb89429f4, type: 2}
+    second: {fileID: 2100000, guid: c8102c2e8a630644bb2abec1264d9437, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -123,9 +148,9 @@ ModelImporter:
     useFileScale: 1
     strictVertexDataChecks: 0
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 180
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 2
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
