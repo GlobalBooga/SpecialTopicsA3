@@ -1,70 +1,73 @@
 using UnityEngine;
 using Valve.VR;
 using UnityEngine.Splines;
-using Valve.VR.Extras;
+using System.Linq;
 
 public class SimplePlayer : MonoBehaviour
 {
-    SteamVR_Action_Boolean trigger = SteamVR_Input.GetBooleanAction("GrabPinch");
     SteamVR_Action_Boolean reset = SteamVR_Input.GetBooleanAction("Reset");
     SteamVR_Action_Boolean fwd = SteamVR_Input.GetBooleanAction("Forward");
     SteamVR_Action_Boolean bwd = SteamVR_Input.GetBooleanAction("Backward");
-    SteamVR_Action_Vector2 scroll = SteamVR_Input.GetVector2Action("Scroll");
+    SteamVR_Action_Boolean snapLeftAction = SteamVR_Input.GetBooleanAction("SnapTurnLeft");
+    SteamVR_Action_Boolean snapRightAction = SteamVR_Input.GetBooleanAction("SnapTurnRight");
 
-    public SteamVR_LaserPointer laserPointerObj;
+    //public SteamVR_LaserPointer laserPointerObj;
     public SplineContainer s;
 
     float prog = 0;
     float travelDelay = 0.25f;
-    float steps = 10;
+    float steps = 7;
     float direction = 0;
     bool directionHeld = false;
-    bool canSwipe = false;
-    float swipeValue = 0.5f;
-    Vector2 startPos;
-    Vector3 p;
-    Vector3 lastPos;
+    bool turnHeld = false;
+    float turnDirection = 0;
+    float turnDelay = 0.5f;
+    bool cycleKnots = true;
+    int i= 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //trigger.onStateDown += Trigger_onStateDown;
-        //trigger.onStateUp += Trigger_onStateUp;
         reset.onStateDown += Reset_onStateDown;
         fwd.onStateDown += Fwd_onStateDown; 
         fwd.onStateUp += Fwd_onStateUp;
         bwd.onStateDown += Bwd_onStateDown;
         bwd.onStateUp += Bwd_onStateUp;
-        //trigger.onUpdate += Trigger_onUpdate;
-        scroll.onUpdate += Scroll_onUpdate;
+        snapLeftAction.onStateDown += SnapLeftAction_onStateDown;
+        snapLeftAction.onStateUp += SnapLeftAction_onStateUp;
+        snapRightAction.onStateDown += SnapRightAction_onStateDown;
+        snapRightAction.onStateUp += SnapRightAction_onStateUp;
+        gameObject.transform.position = s.EvaluatePosition(0);
     }
 
-    private void Scroll_onUpdate(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta)
+    private void SnapRightAction_onStateUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        swipeValue = Mathf.Clamp01(swipeValue + axis.x / 100);
-        Debug.Log(swipeValue);
+        turnDirection = 0;
+        turnHeld = false;
+        CancelInvoke("TurnInterval");
     }
 
-    private void Trigger_onUpdate(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState)
+    private void SnapRightAction_onStateDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        if (canSwipe && laserPointerObj)
-        {
-            Vector3 pos = laserPointerObj.pointer.transform.position + laserPointerObj.pointer.transform.forward * 10f;
-            p = Camera.main.WorldToScreenPoint(pos);
-            float distx = p.x - startPos.x;
-
-            float velocityx = p.x - lastPos.x;
-            
-            swipeValue = Mathf.Clamp01(distx/100 * velocityx);
-            Debug.Log(swipeValue);
-
-            lastPos = p;
-        }
+        turnDirection = 1;
+        turnHeld = true;
+        gameObject.transform.forward = gameObject.transform.right * turnDirection;
+        InvokeRepeating("TurnInterval", turnDelay, turnDelay);
     }
 
-    private void Trigger_onStateUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    private void SnapLeftAction_onStateUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        canSwipe = false;
+        turnDirection = 0;
+        turnHeld = false;
+        CancelInvoke("TurnInterval");
+    }
+
+    private void SnapLeftAction_onStateDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        turnDirection = -1;
+        turnHeld = true;
+        gameObject.transform.forward = gameObject.transform.right * turnDirection;
+        InvokeRepeating("TurnInterval", turnDelay, turnDelay);
     }
 
     private void Bwd_onStateUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
@@ -101,14 +104,15 @@ public class SimplePlayer : MonoBehaviour
     {
         prog = 0;
         gameObject.transform.position = s.EvaluatePosition(prog);
-        gameObject.transform.forward = s.EvaluateTangent(prog);
+        //gameObject.transform.forward = s.EvaluateTangent(prog);
     }
 
-    private void Trigger_onStateDown(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    void TurnInterval()
     {
-        canSwipe = true;
-        Vector3 pos = laserPointerObj.pointer.transform.position + laserPointerObj.pointer.transform.forward * 10f;
-        startPos = Camera.main.WorldToScreenPoint(pos);
+        if (turnHeld)
+        {
+            gameObject.transform.forward = gameObject.transform.right * turnDirection;
+        }
     }
 
     void UpdateInterval()
@@ -121,8 +125,19 @@ public class SimplePlayer : MonoBehaviour
 
     void TPNext()
     {
-        prog = Mathf.Clamp01(prog + direction * 1 / steps);
-        gameObject.transform.position = s.EvaluatePosition(prog);
-        gameObject.transform.forward = s.EvaluateTangent(prog);
+        if (s)
+        {
+            if (cycleKnots)
+            {
+                i = Mathf.Clamp(i + (int)direction, 0, (int)steps);
+                gameObject.transform.position = (Vector3)s.Splines[0].Knots.ElementAt(i).Position + s.transform.position;
+            }
+            else
+            {
+                prog = Mathf.Clamp01(prog + direction * 1 / steps);
+                gameObject.transform.position = s.EvaluatePosition(prog);
+                //gameObject.transform.forward = s.EvaluateTangent(prog);
+            }
+        }
     }
 }
