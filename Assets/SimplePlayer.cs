@@ -11,6 +11,7 @@ public class SimplePlayer : MonoBehaviour
     SteamVR_Action_Boolean snapRightAction = SteamVR_Input.GetBooleanAction("SnapTurnRight");
 
     public SplineContainer s;
+    public Pamphlet pamphlet;
 
     float travelDelay = 0.25f;
     int steps = 7;
@@ -127,6 +128,8 @@ public class SimplePlayer : MonoBehaviour
 
                 gameObject.transform.position = (Vector3)s.Splines[0].Knots.ElementAt(i).Position + s.transform.position;
                 gameObject.transform.LookAt(pointsOfInterests[i]);
+
+                if (pamphlet) pamphlet.SetImage(i);
             }
         }
     }
