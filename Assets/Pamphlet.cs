@@ -6,6 +6,11 @@ public class Pamphlet : MonoBehaviour
     public MeshRenderer mr;
     public Texture2D[] images;
 
+    private void Start()
+    {
+        SetImage(0);
+    }
+
     public void SetImage(int index)
     {
         if (images[index] == null)

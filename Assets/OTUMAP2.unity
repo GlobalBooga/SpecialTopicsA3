@@ -1467,7 +1467,7 @@ GameObject:
   - component: {fileID: 11944628}
   - component: {fileID: 11944630}
   - component: {fileID: 11944629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5894,7 +5894,7 @@ GameObject:
   - component: {fileID: 93662075}
   - component: {fileID: 93662077}
   - component: {fileID: 93662076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8322,7 +8322,7 @@ GameObject:
   - component: {fileID: 146208889}
   - component: {fileID: 146208891}
   - component: {fileID: 146208890}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8872,171 +8872,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148168346}
   m_Mesh: {fileID: 4625548582665009646, guid: 33cc08975f7e2184e848cfaa8bf9065a, type: 3}
---- !u!43 &149159189
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 24
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: 0, y: 0.01, z: 0}
-      m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 8
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 28
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 288
-    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0.01, z: 0}
-    m_Extent: {x: 1.65, y: 0, z: 1.275}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  'm_MeshMetrics[0]': 1
-  'm_MeshMetrics[1]': 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &149455571
 GameObject:
   m_ObjectHideFlags: 0
@@ -13643,7 +13478,7 @@ GameObject:
   - component: {fileID: 228691264}
   - component: {fileID: 228691266}
   - component: {fileID: 228691265}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16673,6 +16508,171 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280158633}
   m_Mesh: {fileID: 4625548582665009646, guid: 33cc08975f7e2184e848cfaa8bf9065a, type: 3}
+--- !u!43 &280162971
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0, y: 0.01, z: 0}
+      m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000004000100010004000500010005000200020005000600020006000300030006000700030007000000000007000400
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 28
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 288
+    _typelessdata: 0000c03f0ad7233c000090bf000000000000803f0000803f0000803f00000000000000000000c0bf0ad7233c000090bf000000000000803f0000803f0000803f0000803f000000000000c0bf0ad7233c0000903f000000000000803f0000803f0000803f00000000000000000000c03f0ad7233c0000903f000000000000803f0000803f0000803f0000803f000000003333d33f0ad7233c3333a3bf000000000000803f0000803f00000000000000000000803f3333d3bf0ad7233c3333a3bf000000000000803f0000803f000000000000803f0000803f3333d3bf0ad7233c3333a33f000000000000803f0000803f00000000000000000000803f3333d33f0ad7233c3333a33f000000000000803f0000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0.01, z: 0}
+    m_Extent: {x: 1.65, y: 0, z: 1.275}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &282520865
 GameObject:
   m_ObjectHideFlags: 0
@@ -17380,7 +17380,7 @@ GameObject:
   - component: {fileID: 289289956}
   - component: {fileID: 289289958}
   - component: {fileID: 289289957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17985,7 +17985,7 @@ GameObject:
   - component: {fileID: 301668001}
   - component: {fileID: 301668003}
   - component: {fileID: 301668002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22265,7 +22265,7 @@ GameObject:
   - component: {fileID: 370931958}
   - component: {fileID: 370931960}
   - component: {fileID: 370931959}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22524,7 +22524,7 @@ GameObject:
   - component: {fileID: 374153978}
   - component: {fileID: 374153980}
   - component: {fileID: 374153979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25542,7 +25542,7 @@ GameObject:
   - component: {fileID: 427933708}
   - component: {fileID: 427933710}
   - component: {fileID: 427933709}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25714,7 +25714,7 @@ GameObject:
   - component: {fileID: 428082756}
   - component: {fileID: 428082758}
   - component: {fileID: 428082757}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26841,7 +26841,7 @@ GameObject:
   - component: {fileID: 448235515}
   - component: {fileID: 448235517}
   - component: {fileID: 448235516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26927,7 +26927,7 @@ GameObject:
   - component: {fileID: 457941605}
   - component: {fileID: 457941607}
   - component: {fileID: 457941606}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28315,7 +28315,7 @@ GameObject:
   - component: {fileID: 484730898}
   - component: {fileID: 484730900}
   - component: {fileID: 484730899}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31049,11 +31049,11 @@ PrefabInstance:
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2034901802}
+      objectReference: {fileID: 609172999}
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 149159189}
+      objectReference: {fileID: 280162971}
     - target: {fileID: 1000014254142504, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_Layer
       value: 1
@@ -34475,7 +34475,7 @@ GameObject:
   - component: {fileID: 590142213}
   - component: {fileID: 590142215}
   - component: {fileID: 590142214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (150)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35505,6 +35505,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608385352}
   m_Mesh: {fileID: 4625548582665009646, guid: 33cc08975f7e2184e848cfaa8bf9065a, type: 3}
+--- !u!21 &609172999
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &612288748
 GameObject:
   m_ObjectHideFlags: 0
@@ -36473,7 +36514,7 @@ GameObject:
   - component: {fileID: 625522613}
   - component: {fileID: 625522615}
   - component: {fileID: 625522614}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37080,7 +37121,7 @@ GameObject:
   - component: {fileID: 634620717}
   - component: {fileID: 634620719}
   - component: {fileID: 634620718}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (018)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38903,7 +38944,7 @@ GameObject:
   - component: {fileID: 670961787}
   - component: {fileID: 670961789}
   - component: {fileID: 670961788}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39501,7 +39542,7 @@ GameObject:
   - component: {fileID: 682061943}
   - component: {fileID: 682061945}
   - component: {fileID: 682061944}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41410,7 +41451,7 @@ GameObject:
   - component: {fileID: 710561437}
   - component: {fileID: 710561439}
   - component: {fileID: 710561438}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (153)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42831,7 +42872,7 @@ GameObject:
   - component: {fileID: 737683450}
   - component: {fileID: 737683452}
   - component: {fileID: 737683451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (132)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43351,7 +43392,7 @@ GameObject:
   - component: {fileID: 752906020}
   - component: {fileID: 752906022}
   - component: {fileID: 752906021}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (149)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44393,7 +44434,7 @@ GameObject:
   - component: {fileID: 771587419}
   - component: {fileID: 771587421}
   - component: {fileID: 771587420}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47384,7 +47425,7 @@ GameObject:
   - component: {fileID: 824601760}
   - component: {fileID: 824601762}
   - component: {fileID: 824601761}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (151)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48945,7 +48986,7 @@ GameObject:
   - component: {fileID: 852646083}
   - component: {fileID: 852646085}
   - component: {fileID: 852646084}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (124)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49118,7 +49159,7 @@ GameObject:
   - component: {fileID: 855913097}
   - component: {fileID: 855913099}
   - component: {fileID: 855913098}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50156,7 +50197,7 @@ GameObject:
   - component: {fileID: 872174705}
   - component: {fileID: 872174707}
   - component: {fileID: 872174706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52066,7 +52107,7 @@ GameObject:
   - component: {fileID: 904279423}
   - component: {fileID: 904279425}
   - component: {fileID: 904279424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52325,7 +52366,7 @@ GameObject:
   - component: {fileID: 915584070}
   - component: {fileID: 915584072}
   - component: {fileID: 915584071}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52845,7 +52886,7 @@ GameObject:
   - component: {fileID: 923627455}
   - component: {fileID: 923627457}
   - component: {fileID: 923627456}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (127)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55016,7 +55057,7 @@ GameObject:
   - component: {fileID: 965030755}
   - component: {fileID: 965030757}
   - component: {fileID: 965030756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56404,7 +56445,7 @@ GameObject:
   - component: {fileID: 988563806}
   - component: {fileID: 988563808}
   - component: {fileID: 988563807}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58228,7 +58269,7 @@ GameObject:
   - component: {fileID: 1014430192}
   - component: {fileID: 1014430194}
   - component: {fileID: 1014430193}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (152)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61005,7 +61046,7 @@ GameObject:
   - component: {fileID: 1055296629}
   - component: {fileID: 1055296631}
   - component: {fileID: 1055296630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (125)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63307,7 +63348,7 @@ GameObject:
   - component: {fileID: 1091113366}
   - component: {fileID: 1091113368}
   - component: {fileID: 1091113367}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63480,7 +63521,7 @@ GameObject:
   - component: {fileID: 1096554350}
   - component: {fileID: 1096554352}
   - component: {fileID: 1096554351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67129,7 +67170,7 @@ GameObject:
   - component: {fileID: 1168207218}
   - component: {fileID: 1168207220}
   - component: {fileID: 1168207219}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68082,7 +68123,7 @@ GameObject:
   - component: {fileID: 1186595103}
   - component: {fileID: 1186595105}
   - component: {fileID: 1186595104}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68514,7 +68555,7 @@ GameObject:
   - component: {fileID: 1191606980}
   - component: {fileID: 1191606982}
   - component: {fileID: 1191606981}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69791,7 +69832,7 @@ GameObject:
   - component: {fileID: 1217484812}
   - component: {fileID: 1217484814}
   - component: {fileID: 1217484813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74524,7 +74565,7 @@ GameObject:
   - component: {fileID: 1329566261}
   - component: {fileID: 1329566263}
   - component: {fileID: 1329566262}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (126)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75045,7 +75086,7 @@ GameObject:
   - component: {fileID: 1337337318}
   - component: {fileID: 1337337320}
   - component: {fileID: 1337337319}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75997,7 +76038,7 @@ GameObject:
   - component: {fileID: 1355312211}
   - component: {fileID: 1355312213}
   - component: {fileID: 1355312212}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76170,7 +76211,7 @@ GameObject:
   - component: {fileID: 1359426806}
   - component: {fileID: 1359426808}
   - component: {fileID: 1359426807}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77470,7 +77511,7 @@ GameObject:
   - component: {fileID: 1374604556}
   - component: {fileID: 1374604558}
   - component: {fileID: 1374604557}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78335,7 +78376,7 @@ GameObject:
   - component: {fileID: 1393678922}
   - component: {fileID: 1393678924}
   - component: {fileID: 1393678923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79463,7 +79504,7 @@ GameObject:
   - component: {fileID: 1413054823}
   - component: {fileID: 1413054825}
   - component: {fileID: 1413054824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80589,7 +80630,7 @@ GameObject:
   - component: {fileID: 1441033156}
   - component: {fileID: 1441033158}
   - component: {fileID: 1441033157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (074)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86361,7 +86402,7 @@ GameObject:
   - component: {fileID: 1534742356}
   - component: {fileID: 1534742358}
   - component: {fileID: 1534742357}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87925,7 +87966,7 @@ GameObject:
   - component: {fileID: 1559816771}
   - component: {fileID: 1559816773}
   - component: {fileID: 1559816772}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (135)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88531,7 +88572,7 @@ GameObject:
   - component: {fileID: 1567691154}
   - component: {fileID: 1567691156}
   - component: {fileID: 1567691155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88704,7 +88745,7 @@ GameObject:
   - component: {fileID: 1571335223}
   - component: {fileID: 1571335225}
   - component: {fileID: 1571335224}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (146)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89919,7 +89960,7 @@ GameObject:
   - component: {fileID: 1595335332}
   - component: {fileID: 1595335334}
   - component: {fileID: 1595335333}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (073)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90701,7 +90742,7 @@ GameObject:
   - component: {fileID: 1604080853}
   - component: {fileID: 1604080855}
   - component: {fileID: 1604080854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91396,7 +91437,7 @@ GameObject:
   - component: {fileID: 1618292140}
   - component: {fileID: 1618292142}
   - component: {fileID: 1618292141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94848,7 +94889,7 @@ GameObject:
   - component: {fileID: 1670873840}
   - component: {fileID: 1670873842}
   - component: {fileID: 1670873841}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95195,7 +95236,7 @@ GameObject:
   - component: {fileID: 1673213124}
   - component: {fileID: 1673213126}
   - component: {fileID: 1673213125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95823,7 +95864,7 @@ GameObject:
   - component: {fileID: 1682626651}
   - component: {fileID: 1682626653}
   - component: {fileID: 1682626652}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97589,7 +97630,7 @@ GameObject:
   - component: {fileID: 1725945719}
   - component: {fileID: 1725945721}
   - component: {fileID: 1725945720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99674,7 +99715,7 @@ GameObject:
   - component: {fileID: 1765692866}
   - component: {fileID: 1765692868}
   - component: {fileID: 1765692867}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (08)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100628,7 +100669,7 @@ GameObject:
   - component: {fileID: 1792143063}
   - component: {fileID: 1792143065}
   - component: {fileID: 1792143064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101149,7 +101190,7 @@ GameObject:
   - component: {fileID: 1800181066}
   - component: {fileID: 1800181068}
   - component: {fileID: 1800181067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (138)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101408,7 +101449,7 @@ GameObject:
   - component: {fileID: 1802752329}
   - component: {fileID: 1802752331}
   - component: {fileID: 1802752330}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (09)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101581,7 +101622,7 @@ GameObject:
   - component: {fileID: 1803745699}
   - component: {fileID: 1803745701}
   - component: {fileID: 1803745700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102722,7 +102763,7 @@ GameObject:
   - component: {fileID: 1815997250}
   - component: {fileID: 1815997252}
   - component: {fileID: 1815997251}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103851,7 +103892,7 @@ GameObject:
   - component: {fileID: 1839245267}
   - component: {fileID: 1839245269}
   - component: {fileID: 1839245268}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106022,7 +106063,7 @@ GameObject:
   - component: {fileID: 1888909388}
   - component: {fileID: 1888909390}
   - component: {fileID: 1888909389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (140)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109058,7 +109099,7 @@ GameObject:
   - component: {fileID: 1939371664}
   - component: {fileID: 1939371666}
   - component: {fileID: 1939371665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111421,7 +111462,7 @@ GameObject:
   - component: {fileID: 1990606156}
   - component: {fileID: 1990606158}
   - component: {fileID: 1990606157}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111681,7 +111722,7 @@ GameObject:
   - component: {fileID: 1993433675}
   - component: {fileID: 1993433677}
   - component: {fileID: 1993433676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112028,7 +112069,7 @@ GameObject:
   - component: {fileID: 1996129757}
   - component: {fileID: 1996129759}
   - component: {fileID: 1996129758}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (017)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113157,7 +113198,7 @@ GameObject:
   - component: {fileID: 2015176403}
   - component: {fileID: 2015176405}
   - component: {fileID: 2015176404}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113417,7 +113458,7 @@ GameObject:
   - component: {fileID: 2018746427}
   - component: {fileID: 2018746429}
   - component: {fileID: 2018746428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114672,47 +114713,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034747885}
   m_Mesh: {fileID: 4625548582665009646, guid: 33cc08975f7e2184e848cfaa8bf9065a, type: 3}
---- !u!21 &2034901802
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &2036473520
 GameObject:
   m_ObjectHideFlags: 0
@@ -114985,7 +114985,7 @@ GameObject:
   - component: {fileID: 2040955398}
   - component: {fileID: 2040955400}
   - component: {fileID: 2040955399}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115853,7 +115853,7 @@ GameObject:
   - component: {fileID: 2059442298}
   - component: {fileID: 2059442300}
   - component: {fileID: 2059442299}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117241,7 +117241,7 @@ GameObject:
   - component: {fileID: 2082092803}
   - component: {fileID: 2082092805}
   - component: {fileID: 2082092804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117762,7 +117762,7 @@ GameObject:
   - component: {fileID: 2087000209}
   - component: {fileID: 2087000211}
   - component: {fileID: 2087000210}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_Man (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

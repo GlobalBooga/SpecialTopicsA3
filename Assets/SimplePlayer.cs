@@ -2,6 +2,8 @@ using UnityEngine;
 using Valve.VR;
 using UnityEngine.Splines;
 using System.Linq;
+using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class SimplePlayer : MonoBehaviour
 {
@@ -24,9 +26,16 @@ public class SimplePlayer : MonoBehaviour
     int i= 0;
     public Transform[] pointsOfInterests;
 
+    InputSystem_Actions controls;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        controls = new InputSystem_Actions();
+
+        controls.Player.Quit.performed += Quit_performed;
+        controls.Enable();
+
         fwd.onStateDown += Fwd_onStateDown; 
         fwd.onStateUp += Fwd_onStateUp;
         bwd.onStateDown += Bwd_onStateDown;
@@ -37,6 +46,16 @@ public class SimplePlayer : MonoBehaviour
         snapRightAction.onStateUp += SnapRightAction_onStateUp;
         gameObject.transform.position = s.EvaluatePosition(0);
         gameObject.transform.LookAt(pointsOfInterests[0]);
+    }
+
+    private void OnDestroy()
+    {
+        controls.Dispose();
+    }
+
+    private void Quit_performed(InputAction.CallbackContext obj)
+    {
+        Application.Quit();
     }
 
     private void SnapRightAction_onStateUp(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
